@@ -1,1 +1,9 @@
 /* Add CSS styling here */
+nav {
+    position: sticky;
+}
+
+ul {
+    list-style-type: none;
+    border: 1px solid black;
+}
