@@ -49,28 +49,26 @@ table {
 }
 
 body {
-    background: #dea787
+    background: #dea787;
 }
 
-
 .main-menu {
-    margin: 8%;
+    margin: 5%;
     color: #707075;
 }
 
 h1 {
     margin: 3% 0%;
     font-size: 2.0em;
-    text-transform: uppercase;
 }
 
-h1, nav {
+h1, nav, p {
     font-family: 'Proxima-Nova', sans-serif;
 }
 
 nav {
-    margin: 0% 0% 0% 4%;
-    position: sticky;
+    margin: 0% 0% 0% 5%;
+    
 }
 
 ul {
@@ -81,15 +79,43 @@ ul {
 
 li {
     border: 1px solid white;
-    padding: 3% 5%;
-    
+    padding: 2% 3%;
 }
+
+a:link, a:visited {
+    text-decoration: none;
+    color: #707075;
+}
+
+li:hover, a:hover {
+    background-color: white;
+  }
 
 .container {
     background: white;
+    padding: 2.0%;
+}
+
+
+.my-projects-button {
+    padding: 1% 1%;
 }
 
 .projects {
+    padding: 2% 0% 0% 0%;
     display: flex;
+    overflow: auto;
+    
+}
+
+.row1.div .row2.row1.div {
     flex-direction: row;
+}
+
+.contact-me-button {
+    padding: 1% 2%;
+}
+
+footer {
+    margin: 5%;
 }
