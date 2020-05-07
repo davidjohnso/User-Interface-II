@@ -115,7 +115,8 @@ li:hover, a:hover {
 }
 
 div.row1, div.row2 {
-  padding-bottom: 5%
+  padding-bottom: 5%;
+  text-align: center;
 }
 
 .contact-me-button {
